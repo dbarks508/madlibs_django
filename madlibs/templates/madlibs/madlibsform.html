@@ -1,0 +1,7 @@
+<h1>Mad Libs</h1>
+<h3>Fill in the form below to see your generated madlib</h3>
+
+<form method="post">
+  {% csrf_token %} {{form.as_p}}
+  <input type="submit" value="Go Mad" />
+</form>

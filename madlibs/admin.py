@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import madlib_model
 
-# Register your models here.
+admin.site.register(madlib_model)
